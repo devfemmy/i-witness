@@ -21,9 +21,6 @@ postForm.on( 'submit', function( e ) {
         data: jsonData( postForm ), 
         crossDomain: true, 
         contentType: 'application/json', 
-        // beforeSend: function ( xhr ) { 
-        //     xhr.setRequestHeader( 'Authorization', "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9idXNheW9taWRheW9taS5vbmxpbmV3ZWJzaG9wLm5ldCIsImlhdCI6MTU1MTEwNjQyMywibmJmIjoxNTUxMTA2NDIzLCJleHAiOjE1NTE3MTEyMjMsImRhdGEiOnsidXNlciI6eyJpZCI6IjUifX19.CRjWJWzXwykDTR7aRObUyQaIrSQLPhZ4nIIFx6V7img" ); 
-        // }, 
         success: function( data ) { 
             console.log( data ); 
             updateDOM(data);
