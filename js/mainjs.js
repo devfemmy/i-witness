@@ -24,7 +24,7 @@ postForm.on( 'submit', function( e ) {
         success: function( data ) { 
             console.log( data ); 
             updateDOM(data);
-            alert("Your posts have been recorded, please refresh your page!")
+            alert("Your posts have been recorded, please your page now!")
         }, 
        
         error: function( error ) { 
